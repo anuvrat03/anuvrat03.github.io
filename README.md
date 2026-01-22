@@ -12,9 +12,10 @@ A seasoned Pharma Professional with a wealth of experience in managing complex p
 📱 My Apps & Projects
 A collection of tools and applications I have developed or managed.
 
-Solvent Mixture Calculator 
-Bulk Density Calculator
-UNESCO Site Navigator
+Solvent Mixture Calculator App
+
+Solvent Mixture Calculator 🚀
+https://anuvrat03.github.io/Solvent-Mixture-Calculator-/
 
 
 📖 Literary Works
