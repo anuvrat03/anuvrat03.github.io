@@ -13,9 +13,10 @@ A seasoned Pharma Professional with a wealth of experience in managing complex p
 A collection of tools and applications I have developed or managed.
 
 Solvent Mixture Calculator App
+ 
+[Solvent Mixture Calculator 🚀]
 
-Solvent Mixture Calculator 🚀
-https://anuvrat03.github.io/Solvent-Mixture-Calculator-/
+(https://anuvrat03.github.io/Solvent-Mixture-Calculator-/)
 
 
 📖 Literary Works
