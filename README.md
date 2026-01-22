@@ -14,10 +14,10 @@ A collection of tools and applications I have developed or managed.
 
 Solvent Mixture Calculator App
  
-[Solvent Mixture Calculator 🚀]
 
-(https://anuvrat03.github.io/Solvent-Mixture-Calculator-/)
+Launch Solvent Mixture Calculator 🚀
 
+https://anuvrat03.github.io/Solvent--Mixture-Calculator-/
 
 📖 Literary Works
 As a Science Fiction Author , I explore futuristic concepts, Human evolution, and the possibilities of Technology in my writing.
