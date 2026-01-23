@@ -26,6 +26,8 @@ As a Science Fiction Author , I explore futuristic concepts, Human evolution, an
 Exploring the boundaries of imagination through storytelling.
 Keep an eye on this space for updates on my latest publications.
 
+Explore my Novels and Stories 🌌/books
+
  🌌 Astrological Consultations
  
 I bridge the gap between the material and the celestial. Through “Astrology” , I provide insights to help individuals navigate their personal and professional paths.
