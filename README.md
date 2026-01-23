@@ -1,5 +1,6 @@
 
-# 👋 Hello I am Dr. Anu Vrat Sharma
+👋 Hello I am Dr. Anu Vrat Sharma
+
 Pharma Industry Veteran | Strategic Leader | Sci-Fi Author | Astrologer
 
 A seasoned Pharma Professional with a wealth of experience in managing complex projects and leading technical teams. I balance the precision of project management with the creative world of Science Fiction and the ancient wisdom of Astrology. Off late, I was intrigued with the world of AI and started using Gemini to find solutions to my problems - and now I'm fluent in Gemini, Lovable, n8n, APIs - _yes I talk tech_! 
