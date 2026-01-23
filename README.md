@@ -50,6 +50,8 @@ Dr. Anu Vrat Sharma (https://www.linkedin.com/in/dr-anu-vrat-sharma)
 
 "Navigating the future through Technology, Storytelling, and the Stars.
 
-![Visitors](https://api.visitorbadge.io/api/combipath=https%3A%2F%2Fgithub.com%2Fanuvrat03&labelColor=%2337d67a&countColor=%23263238&style=flat)
+![Visitors](https://img.shields.io/badge/Visitors-1-blue)
+
+
 
 
