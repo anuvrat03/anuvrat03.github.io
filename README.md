@@ -30,6 +30,8 @@ Explore my Novels and Stories
 
 [📖 Read the Synopsis: The Twelve Breaths of Shanti](./books.md)
 
+[🏠 Back to Home Page](https://anuvrat03.github.io/)
+
  🌌 Astrological Consultations
  
 I bridge the gap between the material and the celestial. Through “Astrology” , I provide insights to help individuals navigate their personal and professional paths.
