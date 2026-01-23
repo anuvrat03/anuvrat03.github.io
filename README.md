@@ -1,53 +1,48 @@
 
-Dr. Anu Vrat Sharma | Profile
-
-
-👋 Hello I am Dr. Anu Vrat Sharma
+# 👋 Hello I am Dr. Anu Vrat Sharma
 Pharma Industry Veteran | Strategic Leader | Sci-Fi Author | Astrologer
 
-A seasoned Pharma Professional with a wealth of experience in managing complex projects and leading technical teams. I balance the precision of project management with the creative world of Science Fiction and the ancient wisdom of Astrology. I am equally passionate about developing No Code Apps to address various difficult problems faced by professionals
+A seasoned Pharma Professional with a wealth of experience in managing complex projects and leading technical teams. I balance the precision of project management with the creative world of Science Fiction and the ancient wisdom of Astrology. Off late, I was intrigued with the world of AI and started using Gemini to find solutions to my problems - and now I'm fluent in Gemini, Lovable, n8n, APIs - _yes I talk tech_! 
 
-[💼 LinkedIn Profile](https://www.linkedin.com/in/dr-anu-vrat-sharma) | 🌌 Astrology (https://forms.gle/syhfU7BzH8EPS7H36)
+[💼 LinkedIn Profile](https://www.linkedin.com/in/dr-anu-vrat-sharma) | [🌌 Astrology](https://forms.gle/syhfU7BzH8EPS7H36)
 
-📱 My Apps & Projects
+---
 
-A collection of tools and applications I have developed or managed.
+## 📱 My Apps & Projects
 
-Solvent Mixture Calculator App
+A collection of tools and apps I have developed - _all vibe coded_!
+
+- [Solvent Mixture Calculator App](https://anuvrat03.github.io/Solvent--Mixture-Calculator-/) - [Git Repo](https://github.com/anuvrat03/Solvent--Mixture-Calculator-)
+- [Density in Motion](http://bit.ly/4lIdIVC) - [Git Repo](https://github.com/anuvrat03/density-in-motion-lab)
  
+---
 
-Launch Solvent Mixture Calculator 🚀
+## 📖 Literary Works
 
-https://anuvrat03.github.io/Solvent--Mixture-Calculator-/
-
-📖 Literary Works
-
-As a Science Fiction Author , I explore futuristic concepts, Human evolution, and the possibilities of Technology in my writing.
+As a Science Fiction Author, I explore futuristic concepts, Human evolution, and the possibilities of Technology in my writing.
 Exploring the boundaries of imagination through storytelling.
 Keep an eye on this space for updates on my latest publications.
 
 Explore my Novels and Stories
 
-[📖 Read the Synopsis: The Twelve Breaths of Shanti](./books.md)
+- [📖 Read the Synopsis: The Twelve Breaths of Shanti](./books.md)
 
+---
 
- 🌌 Astrological Consultations
+## 🌌 Astrological Consultations
  
-I bridge the gap between the material and the celestial. Through “Astrology” , I provide insights to help individuals navigate their personal and professional paths.
+I bridge the gap between the material and the celestial. Through “Astrology”, I have helped hundreds of people across the globe by providing insights and remedies to help them navigate their personal and professional paths.
 
-“Schedule a Session”
+[**Schedule a Session**](https://forms.gle/syhfU7BzH8EPS7H36) if you are seeking a cosmic perspective on your life’s journey or professional growth.
 
-If you are seeking a cosmic perspective on your life’s journey or professional growth:
-👉 Book an Astrology Consultation Here: (https://forms.gle/syhfU7BzH8EPS7H36)
+---
 
-📬 Contact & Connect
+## 📬 Contact & Connect
+
 Email: dranuvrat@gmail.com
+LinkedIn: [Dr. Anu Vrat Sharma](https://www.linkedin.com/in/dr-anu-vrat-sharma)
 
-LinkedIn:
-
-Dr. Anu Vrat Sharma (https://www.linkedin.com/in/dr-anu-vrat-sharma)
-
-"Navigating the future through Technology, Storytelling, and the Stars.
+_"Navigating the future through Technology, Storytelling, and the Stars."_
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=anuvrat03&color=blue&style=flat-square)
 
