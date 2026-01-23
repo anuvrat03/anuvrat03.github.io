@@ -10,6 +10,7 @@ A seasoned Pharma Professional with a wealth of experience in managing complex p
 [💼 LinkedIn Profile](https://www.linkedin.com/in/dr-anu-vrat-sharma) | 🌌 Astrology (https://forms.gle/syhfU7BzH8EPS7H36)
 
 📱 My Apps & Projects
+
 A collection of tools and applications I have developed or managed.
 
 Solvent Mixture Calculator App
@@ -20,14 +21,17 @@ Launch Solvent Mixture Calculator 🚀
 https://anuvrat03.github.io/Solvent--Mixture-Calculator-/
 
 📖 Literary Works
+
 As a Science Fiction Author , I explore futuristic concepts, Human evolution, and the possibilities of Technology in my writing.
 Exploring the boundaries of imagination through storytelling.
 Keep an eye on this space for updates on my latest publications.
 
  🌌 Astrological Consultations
+ 
 I bridge the gap between the material and the celestial. Through “Astrology” , I provide insights to help individuals navigate their personal and professional paths.
 
 “Schedule a Session”
+
 If you are seeking a cosmic perspective on your life’s journey or professional growth:
 👉 Book an Astrology Consultation Here: (https://forms.gle/syhfU7BzH8EPS7H36)
 
@@ -35,6 +39,7 @@ If you are seeking a cosmic perspective on your life’s journey or professional
 Email: dranuvrat@gmail.com
 
 LinkedIn:
+
 Dr. Anu Vrat Sharma (https://www.linkedin.com/in/dr-anu-vrat-sharma)
 
 "Navigating the future through Technology, Storytelling, and the Stars.
