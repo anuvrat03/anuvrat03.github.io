@@ -28,7 +28,7 @@ Keep an eye on this space for updates on my latest publications.
 
 Explore my Novels and Stories
 
-[📖 Read the Synopsis: The Twelve Breaths of Shanti](./books)
+[📖 Read the Synopsis: The Twelve Breaths of Shanti](./books.md)
 
  🌌 Astrological Consultations
  
