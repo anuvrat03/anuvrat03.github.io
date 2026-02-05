@@ -60,6 +60,18 @@ Target Users:
 Logistics Managers, Civil Engineers, and Material Scientists.
 
 
+Age Calculator
+
+​
+​A sleek, intuitive tool designed to calculate your exact age in years, months, and days with just a few clicks.
+It saves your precious time and mental occupancy while filling critical documents a day forms. You will find it very useful.
+​🌟 The Vision In a world where we often lose track of time, this tool provides instant clarity. Whether for official documentation or personal curiosity, it eliminates manual date subtraction and provides a reliable, digital result instantly.
+​🚀 Features
+​Precision Calculation: Get your exact age broken down by years, months, and days.
+​Real-time Results: No page refreshes—results appear the moment you select your birthdate.
+​Responsive Design: Fully optimized for mobile use, allowing you to check dates on the go.
+​User-Friendly Interface: Minimalist design that focuses entirely on the data you need.
+​📊 How It Works The calculator uses JavaScript's Date object to compare the current timestamp with your selected input. It accounts for leap years and varying month lengths to ensure the math is 100% accurate every time.
 
  🏛️ UNESCO Site Navigator
  
