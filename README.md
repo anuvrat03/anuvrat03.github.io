@@ -17,6 +17,8 @@ A collection of tools and apps I have developed - _all vibe coded_!
 - [Density in Motion](http://bit.ly/4lIdIVC) - [Git Repo](https://github.com/anuvrat03/density-in-motion-lab)
 
 - https://anuvrat03.github.io/Age-Calculator-/
+- My AI Prompt Repository](https://anuvrat03.github.io/prompts) - A curated toolkit of functional AI prompts.
+
 
 
 ## 📖 Literary Works
