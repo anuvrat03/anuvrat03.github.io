@@ -10,16 +10,16 @@
                     var lon = position.coords.longitude;
                     var gpsString = lat + ", " + lon;
 
-                    // This grabs whatever ?room= text you put in your browser link
+                    // This dynamically grabs WHATEVER location name you put after "?room="
                     var urlParams = new URLSearchParams(window.location.search);
                     var roomParam = urlParams.get('room') || "";
 
-                    // YOUR CUSTOM GOOGLE FORM CONFIGURATION
+                    // Your dedicated Google Form configuration strings
                     var formBase = "https://docs.google.com/forms/d/e/1FAIpQLSdvAk8eD2D-UT2Gsi9sZZo2DGuqIFxhGqeSKeAqijbnm3950A/viewform";
                     var gpsEntry = "entry.1324484530";
                     var roomEntry = "entry.785910206";
 
-                    // Stitches the satellite telemetry data into the pre-filled form URL
+                    // Stitches everything together for your custom form
                     var finalUrl = formBase + "?" + gpsEntry + "=" + encodeURIComponent(gpsString) + "&" + roomEntry + "=" + encodeURIComponent(roomParam);
                     
                     window.location.href = finalUrl;
