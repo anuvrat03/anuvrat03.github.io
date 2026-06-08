@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Capturing Live Location...</title>
+    <script>
+        function getGPSAndRedirect() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var lat = position.coords.latitude;
+                    var lon = position.coords.longitude;
+                    var gpsString = lat + ", " + lon;
+
+                    // Extract values from the website URL bar if present
+                    var urlParams = new URLSearchParams(window.location.search);
+                    var roomParam = urlParams.get('room') || "";
+
+                    // YOUR NEW GOOGLE FORM LINK LOGIC:
+                    var formBase = "https://docs.google.com/forms/d/e/YOUR_NEW_FORM_ID/viewform";
+                    var gpsEntry = "entry.11111111"; // Replace with your GPS entry ID
+                    var roomEntry = "entry.22222222"; // Replace with your Label entry ID
+
+                    // Combine everything into the perfect automated redirect link
+                    var finalUrl = formBase + "?" + gpsEntry + "=" + encodeURIComponent(gpsString) + "&" + roomEntry + "=" + encodeURIComponent(roomParam);
+                    
+                    window.location.href = finalUrl;
+                }, function(error) {
+                    alert("GPS Access Denied. Please enable location permissions on your phone browser.");
+                }, { enableHighAccuracy: true });
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+        window.onload = getGPSAndRedirect;
+    </script>
+</head>
+<body>
+    <p style="text-align: center; font-family: sans-serif; margin-top: 50px;">
+        Securing satellite connection... Opening your Form.
+    </p>
+</body>
+</html>
