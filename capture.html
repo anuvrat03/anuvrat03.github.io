@@ -10,21 +10,21 @@
                     var lon = position.coords.longitude;
                     var gpsString = lat + ", " + lon;
 
-                    // Extract values from the website URL bar if present
+                    // This grabs whatever ?room= text you put in your browser link
                     var urlParams = new URLSearchParams(window.location.search);
                     var roomParam = urlParams.get('room') || "";
 
-                    // YOUR NEW GOOGLE FORM LINK LOGIC:
-                    var formBase = "https://docs.google.com/forms/d/e/YOUR_NEW_FORM_ID/viewform";
-                    var gpsEntry = "entry.11111111"; // Replace with your GPS entry ID
-                    var roomEntry = "entry.22222222"; // Replace with your Label entry ID
+                    // YOUR CUSTOM GOOGLE FORM CONFIGURATION
+                    var formBase = "https://docs.google.com/forms/d/e/1FAIpQLSdvAk8eD2D-UT2Gsi9sZZo2DGuqIFxhGqeSKeAqijbnm3950A/viewform";
+                    var gpsEntry = "entry.1324484530";
+                    var roomEntry = "entry.785910206";
 
-                    // Combine everything into the perfect automated redirect link
+                    // Stitches the satellite telemetry data into the pre-filled form URL
                     var finalUrl = formBase + "?" + gpsEntry + "=" + encodeURIComponent(gpsString) + "&" + roomEntry + "=" + encodeURIComponent(roomParam);
                     
                     window.location.href = finalUrl;
                 }, function(error) {
-                    alert("GPS Access Denied. Please enable location permissions on your phone browser.");
+                    alert("GPS Access Denied. Please ensure location permissions are enabled for this site in your phone's browser.");
                 }, { enableHighAccuracy: true });
             } else {
                 alert("Geolocation is not supported by this browser.");
@@ -34,8 +34,8 @@
     </script>
 </head>
 <body>
-    <p style="text-align: center; font-family: sans-serif; margin-top: 50px;">
-        Securing satellite connection... Opening your Form.
+    <p style="text-align: center; font-family: sans-serif; margin-top: 50px; color: #555; font-size: 14px;">
+        Securing satellite tracking connection... Opening your Form.
     </p>
 </body>
 </html>
