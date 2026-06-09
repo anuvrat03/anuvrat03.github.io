@@ -10,17 +10,14 @@
                     var lon = position.coords.longitude;
                     var gpsString = lat + ", " + lon;
 
-                    // This dynamically grabs WHATEVER location name you put after "?room="
-                    var urlParams = new URLSearchParams(window.location.search);
-                    var roomParam = urlParams.get('room') || "";
-
-                    // Your dedicated Google Form configuration strings
+                    // Your dedicated Google Form URL
                     var formBase = "https://docs.google.com/forms/d/e/1FAIpQLSdvAk8eD2D-UT2Gsi9sZZo2DGuqIFxhGqeSKeAqijbnm3950A/viewform";
+                    
+                    // Only pointing to your GPS text box basket
                     var gpsEntry = "entry.1324484530";
-                    var roomEntry = "entry.785910206";
 
-                    // Stitches everything together for your custom form
-                    var finalUrl = formBase + "?" + gpsEntry + "=" + encodeURIComponent(gpsString) + "&" + roomEntry + "=" + encodeURIComponent(roomParam);
+                    // Stitches just the GPS coordinates directly into the form link
+                    var finalUrl = formBase + "?" + gpsEntry + "=" + encodeURIComponent(gpsString);
                     
                     window.location.href = finalUrl;
                 }, function(error) {
