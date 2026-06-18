@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Anu Vrat Sharma | Consultant & Advisor</title>
+    <!-- Google Fonts for a premium, clean corporate look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        /* Mobile-first card container */
+        .card-container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            border: 1px solid #eef2f5;
+        }
+
+        /* Top header branding banner */
+        .header-banner {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            height: 100px;
+            position: relative;
+        }
+
+        /* Brought to the front layer using position and z-index */
+        .profile-section {
+            text-align: center;
+            padding: 0 20px 20px 20px;
+            margin-top: -50px; /* Pulls profile info upward over the banner */
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Strict flex alignment for the emblem */
+        .avatar-placeholder {
+            width: 95px;
+            height: 95px;
+            background: #2c5364;
+            color: #ffffff;
+            font-size: 13px; 
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 0 auto 12px auto;
+            border: 4px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+
+        /* Perfectly sized heading for one line placement */
+        h1 {
+            font-size: 1.15rem;
+            color: #111111;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .title {
+            font-size: 0.8rem;
+            color: #0077b5; /* Professional blue */
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+        }
+
+        .tagline {
+            font-size: 0.85rem;
+            color: #666666;
+            line-height: 1.4;
+            font-style: italic;
+            padding: 0 10px;
+        }
+
+        /* Separator line */
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eef2f5;
+            margin: 20px 0;
+        }
+
+        /* Services section */
+        .services-section {
+            padding: 0 24px;
+        }
+
+        .services-section h3 {
+            font-size: 0.9rem;
+            color: #111111;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .service-tag {
+            background: #f0f4f8;
+            color: #2c5364;
+            padding: 10px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            border-left: 4px solid #2c5364;
+        }
+
+        /* Action Buttons */
+        .links-section {
+            padding: 20px 24px 24px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: transform 0.1s ease;
+            text-align: center;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-linkedin {
+            background-color: #0077b5;
+            color: white;
+        }
+
+        .btn-showcase {
+            background-color: #24292e;
+            color: white;
+        }
+
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: white;
+        }
+
+        .footer-note {
+            text-align: center;
+            font-size: 0.75rem;
+            color: #999999;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <!-- Top Banner Graphic -->
+        <div class="header-banner"></div>
+
+        <!-- Profile details -->
+        <div class="profile-section">
+            <div class="avatar-placeholder">AnuVrat</div> 
+            <h1>Dr. Anu Vrat Sharma</h1>
+            <div class="title">Pharma Consultant & Innovation Advisor</div>
+            <p class="tagline">"Bridging the gap between Pharmaceutical Science and Low-Code Digital Innovation."</p>
+        </div>
+
+        <hr>
+
+        <!-- What you offer (Value for Colleges) -->
+        <div class="services-section">
+            <h3>Core Expert Areas</h3>
+            <div class="service-tag">⏱️ M.Pharm & Pharm.D Digital Project Guidance</div>
+            <div class="service-tag">📱 Mobile-First Prototyping (TrebEdit / GitHub)</div>
+            <div class="service-tag">🏆 Institutional IIC & Hackathon Mentorship</div>
+            <div class="service-tag">📊 NIRF & NAAC Industry-Academia Value Addition</div>
+        </div>
+
+        <!-- Quick Connect Buttons -->
+        <div class="links-section">
+            <a href="https://www.linkedin.com/in/dr-anu-vrat-sharma" target="_blank" class="btn btn-linkedin">
+                View Professional LinkedIn Profile
+            </a>
+            <a href="https://anuvrat03.github.io/" target="_blank" class="btn btn-showcase">
+                Explore Digital Tool Portfolio
+            </a>
+            <!-- Configured WhatsApp API Link -->
+            <a href="https://wa.me/917993640745?text=Hello%20Dr.%20Anu%20Vrat,%20I%20viewed%20your%20Digital%20Innovation%20Card%20and%20would%20like%20to%20connect." target="_blank" class="btn btn-whatsapp">
+                Connect via WhatsApp
+            </a>
+        </div>
+
+        <div class="footer-note">
+            Built using mobile low-code tools. Hosted via GitHub Pages.
+        </div>
+    </div>
+
+</body>
+</html>
