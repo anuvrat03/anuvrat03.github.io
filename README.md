@@ -18,7 +18,11 @@ A collection of tools and apps I have developed - _all vibe coded_!
 - https://anuvrat03.github.io/Lunar-Calendar-App/ (Lunar Calendar)
 - https://anuvrat03.github.io/Age-Calculator-/
 - https://anuvrat03.github.io/prompts - A curated toolkit of functional AI prompts.
-
+- https://editor.p5js.org/rxideas.infinity/embed/ik71oKbyQ - Lab Experiment Manager
+- https://editor.p5js.org/rxideas.infinity/embed/v70or77kO - Titration Animation
+- https://editor.p5js.org/rxideas.infinity/embed/uabrgp1bI - Boiling Water Animation
+- https://editor.p5js.org/rxideas.infinity/embed/nOQEjnZhP - Know your Salt
+- https://editor.p5js.org/rxideas.infinity/embed/YWkZtrVM6 - Your Vehicle Average  
 
 
 ## 📖 Literary Works
