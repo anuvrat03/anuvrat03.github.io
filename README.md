@@ -23,7 +23,10 @@ A collection of tools and apps I have developed - _all vibe coded_!
 - https://editor.p5js.org/rxideas.infinity/embed/uabrgp1bI - Boiling Water Animation
 - https://editor.p5js.org/rxideas.infinity/embed/nOQEjnZhP - Know your Salt
 - https://editor.p5js.org/rxideas.infinity/embed/YWkZtrVM6 - Your Vehicle Average  
-
+- https://codepen.io/editor/Dr-AnuVrat/pen/019f2792-fc57-7ce0-8bfe-b962926d14be - Writing Board
+- https://codepen.io/editor/Dr-AnuVrat/pen/019f0d7c-1a71-73a5-95fb-bb816c46685d - Brownian Motion 
+- https://codepen.io/editor/Dr-AnuVrat/pen/019f021c-9322-7349-9dfb-ef61cdc4e81b - AlphabetBook 
+- https://codepen.io/editor/Dr-AnuVrat/pen/019f0225-d77f-73fb-a11d-a730dcd5ddfe - Interactive Periodic Table 
 
 ## 📖 Literary Works
 
