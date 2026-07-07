@@ -1,7 +1,7 @@
 
 👋 Hello I am Dr. Anu Vrat Sharma
 
-Pharma Industry Veteran | Strategic Leader | Sci-Fi Author | Astrologer
+Pharma Industry Veteran | Strategic Leader | Pharma-AI Tool Creator | IIC Industry Partner| Healthcare  Hackathon Mentor | Sci-Fi Author | Astrologer
 
 Welcome to the digital portfolio of Dr. Anu Vrat Sharma. I am a seasoned Pharma Industry Professional and strategic leader, specializing in developing No-Code applications for complex laboratory problems. Beyond the lab, I am an established Sci-Fi Author exploring futuristic concepts and the intersection of technology and human evolution.
 I balance the precision of project management with the creative world of Science Fiction and the ancient wisdom of Astrology. Off late, I was intrigued with the world of AI and started using Gemini to find solutions to my problems - and now I'm fluent in Gemini, Lovable, n8n, APIs - _yes I talk tech_! 
