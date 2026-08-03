@@ -14,7 +14,7 @@ I balance the precision of project management with the creative world of Science
 A collection of tools and apps I have developed - _all vibe coded_!
 
 
-- Automated Certificate Generator & Emailer Certificate-Generator.js - Google Apps Script Automation
+- [Automated Certificate Generator & Emailer] https://github.com/anuvrat03/anuvrat03.github.io/blob/main/Certificate-Generator.js - Google Apps Script Automation
 
 - [Solvent Mixture Calculator App](https://anuvrat03.github.io/Solvent--Mixture-Calculator-/) - [Git Repo](https://github.com/anuvrat03/Solvent--Mixture-Calculator-)
 - [Density in Motion](http://bit.ly/4lIdIVC) - [Git Repo](https://github.com/anuvrat03/density-in-motion-lab)
