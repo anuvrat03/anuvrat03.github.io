@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Generator</title>
+  <style>
+    /* Styling the form to look clean and mobile-friendly */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      padding: 20px;
+      margin: 0;
+    }
+    .card {
+      max-width: 450px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #1a365d;
+      text-align: center;
+      margin-top: 0;
+    }
+    label {
+      font-weight: bold;
+      color: #2d3748;
+      display: block;
+      margin-top: 12px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #cbd5e0;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      background-color: #2b6cb0;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    #statusMessage {
+      margin-top: 15px;
+      text-align: center;
+      font-weight: bold;
+      color: #2b6cb0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Certificate Generator</h2>
+    
+    <!-- Input field for Participant Name -->
+    <label>Participant Name:</label>
+    <input type="text" id="name" placeholder="e.g. Priya Patel">
+    
+    <!-- Input field for Topic Name -->
+    <label>Topic / Program Name:</label>
+    <input type="text" id="topic" placeholder="e.g. No-Code Tools">
+    
+    <!-- Input field for Date -->
+    <label>Date:</label>
+    <input type="text" id="dateVal" placeholder="e.g. 15/08/2026">
+    
+    <!-- Input field for Certificate ID -->
+    <label>Certificate ID:</label>
+    <input type="text" id="certificateId" placeholder="e.g. CERT-2026-001">
+    
+    <!-- Input field for Email Address -->
+    <label>Participant Email:</label>
+    <input type="email" id="email" placeholder="e.g. participant@gmail.com">
+    
+    <!-- Submit Button -->
+    <button onclick="sendCertificate()">Generate & Send Certificate</button>
+    
+    <!-- Status feedback area -->
+    <div id="statusMessage"></div>
+  </div>
+
+  <script>
+    // Function that collects form data and sends it to Apps Script
+    function sendCertificate() {
+      var status = document.getElementById("statusMessage");
+      status.style.color = "#2b6cb0";
+      status.innerText = "Processing... Please wait!";
+
+      // Collect data from input boxes
+      var payload = {
+        name: document.getElementById("name").value,
+        topic: document.getElementById("topic").value,
+        dateVal: document.getElementById("dateVal").value,
+        certificateId: document.getElementById("certificateId").value,
+        email: document.getElementById("email").value
+      };
+
+      // Send data to your Google Apps Script Web App URL
+      fetch("https://script.google.com/macros/s/AKfycby90sgf1PFE4ZFOB1SXCttrkKvX_IeD3uXokoTCxSgRySn_iLangyJ_q5L8MI8Eg94C/exec", {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      })
+      .then(function() {
+        status.style.color = "green";
+        status.innerText = "Success! Certificate sent to email.";
+        // Clear input boxes after sending
+        document.getElementById("name").value = "";
+        document.getElementById("topic").value = "";
+        document.getElementById("dateVal").value = "";
+        document.getElementById("certificateId").value = "";
+        document.getElementById("email").value = "";
+      })
+      .catch(function(error) {
+        status.style.color = "red";
+        status.innerText = "Error sending certificate. Try again!";
+      });
+    }
+  </script>
+
+</body>
+</html>
