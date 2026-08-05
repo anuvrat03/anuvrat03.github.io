@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Certificate Generator</title>
   <style>
+    /* Styling for mobile phone view */
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f6f9;
@@ -62,6 +63,7 @@
   <div class="card">
     <h2>Certificate Generator</h2>
     
+    <!-- Input boxes for user details -->
     <label>Participant Name:</label>
     <input type="text" id="name" placeholder="e.g. Priya Patel">
     
@@ -77,8 +79,10 @@
     <label>Participant Email:</label>
     <input type="email" id="email" placeholder="e.g. participant@gmail.com">
     
+    <!-- Action button -->
     <button onclick="sendCertificate()">Generate & Send Certificate</button>
     
+    <!-- Message display area -->
     <div id="statusMessage"></div>
   </div>
 
@@ -88,10 +92,10 @@
       status.style.color = "#2b6cb0";
       status.innerText = "Processing... Please wait!";
 
-      // Web App URL connected to Google Apps Script
+      // Web App link connecting to Google Apps Script
       var webAppUrl = "https://script.google.com/macros/s/AKfycby90sgf1PFE4ZFOB1SXCttrkKvX_IeD3uXokoTCxSgRySn_iLangyJ_q5L8MI8Eg94C/exec";
 
-      // Collect data from input fields
+      // Collect entered data
       var payload = {
         name: document.getElementById("name").value,
         topic: document.getElementById("topic").value,
@@ -100,7 +104,7 @@
         email: document.getElementById("email").value
       };
 
-      // Send form data using text format to prevent browser permission blocks
+      // Send data to Apps Script
       fetch(webAppUrl, {
         method: "POST",
         mode: "no-cors",
@@ -108,14 +112,21 @@
         body: JSON.stringify(payload)
       })
       .then(function() {
+        // Step A: Display success text
         status.style.color = "green";
-        status.innerText = "Request submitted! Check email shortly.";
-        // Clear input fields after sending
+        status.innerText = "Request submitted! Resetting form...";
+        
+        // Step B: Clear all text entry boxes immediately
         document.getElementById("name").value = "";
         document.getElementById("topic").value = "";
         document.getElementById("dateVal").value = "";
         document.getElementById("certificateId").value = "";
         document.getElementById("email").value = "";
+
+        // Step C: Wait 3 seconds, then clear the green success message for a completely blank form
+        setTimeout(function() {
+          status.innerText = "";
+        }, 3000);
       })
       .catch(function(error) {
         status.style.color = "red";
