@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Certificate Generator</title>
   <style>
-    /* Styling for mobile phone view */
+    /* Basic styling to make the form look neat on a mobile screen */
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f6f9;
@@ -30,7 +30,7 @@
       display: block;
       margin-top: 12px;
     }
-    input {
+    input, select {
       width: 100%;
       padding: 10px;
       margin-top: 5px;
@@ -38,6 +38,7 @@
       border-radius: 6px;
       box-sizing: border-box;
       font-size: 14px;
+      background-color: white;
     }
     button {
       width: 100%;
@@ -63,7 +64,7 @@
   <div class="card">
     <h2>Certificate Generator</h2>
     
-    <!-- Input boxes for user details -->
+    <!-- User Input Fields -->
     <label>Participant Name:</label>
     <input type="text" id="name" placeholder="e.g. Priya Patel">
     
@@ -79,10 +80,19 @@
     <label>Participant Email:</label>
     <input type="email" id="email" placeholder="e.g. participant@gmail.com">
     
-    <!-- Action button -->
+    <!-- Drop-Down Menu for Border Options -->
+    <label>Choose Border Style:</label>
+    <select id="borderStyle">
+      <option value="border-gold">Gold Elegance</option>
+      <option value="border-blue">Classic Blue</option>
+      <option value="border-dark">Minimalist Dark</option>
+      <option value="border-crimson">Royal Crimson</option>
+    </select>
+    
+    <!-- Action Button -->
     <button onclick="sendCertificate()">Generate & Send Certificate</button>
     
-    <!-- Message display area -->
+    <!-- Status Feedback Area -->
     <div id="statusMessage"></div>
   </div>
 
@@ -92,19 +102,20 @@
       status.style.color = "#2b6cb0";
       status.innerText = "Processing... Please wait!";
 
-      // Web App link connecting to Google Apps Script
+      // Web App address connecting to Google Apps Script
       var webAppUrl = "https://script.google.com/macros/s/AKfycby90sgf1PFE4ZFOB1SXCttrkKvX_IeD3uXokoTCxSgRySn_iLangyJ_q5L8MI8Eg94C/exec";
 
-      // Collect entered data
+      // Collect user responses from the form
       var payload = {
         name: document.getElementById("name").value,
         topic: document.getElementById("topic").value,
         dateVal: document.getElementById("dateVal").value,
         certificateId: document.getElementById("certificateId").value,
-        email: document.getElementById("email").value
+        email: document.getElementById("email").value,
+        borderStyle: document.getElementById("borderStyle").value
       };
 
-      // Send data to Apps Script
+      // Send form data to Apps Script
       fetch(webAppUrl, {
         method: "POST",
         mode: "no-cors",
@@ -112,18 +123,17 @@
         body: JSON.stringify(payload)
       })
       .then(function() {
-        // Step A: Display success text
         status.style.color = "green";
         status.innerText = "Request submitted! Resetting form...";
         
-        // Step B: Clear all text entry boxes immediately
+        // Clear all input boxes for the next entry
         document.getElementById("name").value = "";
         document.getElementById("topic").value = "";
         document.getElementById("dateVal").value = "";
         document.getElementById("certificateId").value = "";
         document.getElementById("email").value = "";
 
-        // Step C: Wait 3 seconds, then clear the green success message for a completely blank form
+        // Reset status message after 3 seconds
         setTimeout(function() {
           status.innerText = "";
         }, 3000);
