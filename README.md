@@ -13,6 +13,8 @@ I balance the precision of project management with the creative world of Science
 
 A collection of tools and apps I have developed - _all vibe coded_!
 
+- [People Counter from Image Upload] https://anuvrat03.github.io/group-photo-counter/
+
 - [Age-Calculator to know Age as on Date] https://anuvrat03.github.io/age-calculator/
 
 - [Automated Certificate Generator & Emailer] https://github.com/anuvrat03/anuvrat03.github.io/blob/main/Certificate-Generator.js - Google Apps Script Automation
