@@ -13,6 +13,8 @@ I balance the precision of project management with the creative world of Science
 
 A collection of tools and apps I have developed - _all vibe coded_!
 
+- [ Know Your Label] https://anuvrat03.github.io/know-your-label/
+
 - [Audiobook Reader for any content] https://anuvrat03.github.io/audio-book-reader/
 
 - [People Counter from Image Upload] https://anuvrat03.github.io/group-photo-counter/
