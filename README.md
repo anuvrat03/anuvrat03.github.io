@@ -13,6 +13,8 @@ I balance the precision of project management with the creative world of Science
 
 A collection of tools and apps I have developed - _all vibe coded_!
 
+- [Faculty Occupancy- TimeTable] https://anuvrat03.github.io/Timetable-Faculty-Occupancy-App/
+
 - [ Know Your Label] https://anuvrat03.github.io/know-your-label/
 
 - [Audiobook Reader for any content] https://anuvrat03.github.io/audio-book-reader/
